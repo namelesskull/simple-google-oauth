@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OAuth Example</title>
+  </head>
+  <body>
+    <h1>Welcome to OAuth Example</h1>
+    <p id="status">
+      Hello, Guest! <a href="/auth/google">Login with Google</a>
+    </p>
+    <script>
+      fetch('/auth/status')
+        .then((response) => response.json())
+        .then((data) => {
+          if (data.loggedIn) {
+            document.getElementById(
+              'status'
+            ).innerHTML = `Hello, ${data.email}! <a href="/auth/logout">Logout</a>`;
+          }
+        });
+    </script>
+  </body>
+</html>
