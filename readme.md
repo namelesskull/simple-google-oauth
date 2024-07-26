@@ -67,4 +67,4 @@ For more details, check the [Google OAuth 2.0 documentation](https://developers.
 
 ---
 
-Don't forget to ⭐️ [star this repository](https://github.com/namelesskull/simple-google-oauth) and [follow my GitHub](https://github.com/namelesskull) for more updates!
+Don't forget to ⭐️ [star this repository](https://github.com/namelesskull/simple-google-oauth/star) and [follow my GitHub](https://github.com/namelesskull) for more updates!
